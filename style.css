@@ -42,7 +42,7 @@ img {
 .welcome-section {
     background-color: lightblue;
     height: 250px;
-    padding: 36px 100px 56px;
+    padding: 36px 100px 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -60,4 +60,13 @@ img {
 h1 {
     font-size: 48px;
     font-weight: extra-bold;
+}
+.information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.imageset {
+    display: flex;
 }
