@@ -2,7 +2,7 @@ body {
     margin: 0px;
 }
 header {
-    background-color: #1F2937;
+    background-color: #F0E4E2;
     font-size: 18px;
     display: flex;
     align-items: center;
@@ -17,6 +17,7 @@ ul {
 }
 .logo {
     margin: 0px;
+    width: 80px;
 }
 li {
     float: left;
@@ -25,22 +26,20 @@ a {
     text-decoration: none;
 }
 a:link {
-    color: white;
+    color: #93554A;
 }
 a:visited {
     color: grey;
 }
 a:hover{
-    color: lightgrey;
+    color: gray;
 }
 a:active {
     color: lightpink;
 }
-img {
-    width: 80px;
-}
+
 .welcome-section {
-    background-color: lightblue;
+    background-color: #C6978E;
     height: 250px;
     padding: 36px 100px 100px;
     display: flex;
@@ -51,7 +50,7 @@ img {
 .heroimage {
     width: 500px;
     height: 200px;
-    background-color: azure;
+    background-color: #F0E4E2;
 }
 .text {
     flex-wrap: wrap;
@@ -61,12 +60,49 @@ h1 {
     font-size: 48px;
     font-weight: extra-bold;
 }
+
 .information {
+    background-color: #F0E4E2;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 250px;
+    padding: 36px 100px 100px;
+}
+.illustrationsection {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 40px;
+    gap: 20px
 }
 .imageset {
     display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    width: 130px;
+}
+.illustration {
+    height: 100px;
+    width: 100px;
+    background-color: lightpink;
+    border: 20px hotpink;
+    border-radius: 10% 30%;
+}
+
+.quote {
+    background-color: #C6978E;
+    height: 250px;
+    padding: 36px 100px 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 18px;
+    align-items: center;
+}
+.name {
+    font-size: 14px;
+    font-weight: bold;
 }
